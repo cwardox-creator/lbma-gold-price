@@ -48,7 +48,7 @@ jobs:
           sed -i 's|<manifest xmlns:android="http://schemas.android.com/apk/res/android">|<manifest xmlns:android="http://schemas.android.com/apk/res/android">\n    <uses-permission android:name="android.permission.INTERNET"/>|' fresh_app/android/app/src/main/AndroidManifest.xml
           
           # Set app label
-          sed -i 's|android:label="lbma_gold_price"|android:label="LBMA Gold"|' fresh_app/android/app/src/main/AndroidManifest.xml
+          sed -i 's|android:label="lbma_gold_price"|android:label="Gold Price LBMA"|' fresh_app/android/app/src/main/AndroidManifest.xml
 
           # Copy fresh android back
           rm -rf lbma-gold-price/android
